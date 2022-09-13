@@ -1,0 +1,48 @@
+{
+  "name": "rich-editor",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@stitches/react": "^1.2.8",
+    "@tiptap/core": "^2.0.0-beta.194",
+    "@tiptap/extension-blockquote": "^2.0.0-beta.194",
+    "@tiptap/extension-bold": "^2.0.0-beta.194",
+    "@tiptap/extension-bubble-menu": "^2.0.0-beta.194",
+    "@tiptap/extension-bullet-list": "^2.0.0-beta.194",
+    "@tiptap/extension-code": "^2.0.0-beta.194",
+    "@tiptap/extension-document": "^2.0.0-beta.194",
+    "@tiptap/extension-heading": "^2.0.0-beta.194",
+    "@tiptap/extension-highlight": "^2.0.0-beta.194",
+    "@tiptap/extension-history": "^2.0.0-beta.194",
+    "@tiptap/extension-italic": "^2.0.0-beta.194",
+    "@tiptap/extension-link": "^2.0.0-beta.194",
+    "@tiptap/extension-list-item": "^2.0.0-beta.194",
+    "@tiptap/extension-ordered-list": "^2.0.0-beta.194",
+    "@tiptap/extension-paragraph": "^2.0.0-beta.194",
+    "@tiptap/extension-placeholder": "^2.0.0-beta.194",
+    "@tiptap/extension-strike": "^2.0.0-beta.194",
+    "@tiptap/extension-task-item": "^2.0.0-beta.194",
+    "@tiptap/extension-task-list": "^2.0.0-beta.194",
+    "@tiptap/extension-text": "^2.0.0-beta.194",
+    "@tiptap/react": "^2.0.0-beta.194",
+    "@tiptap/suggestion": "^2.0.0-beta.194",
+    "lodash.debounce": "^4.0.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tippy.js": "^6.3.7"
+  },
+  "devDependencies": {
+    "@types/lodash.debounce": "^4.0.7",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.1.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0"
+  }
+}
